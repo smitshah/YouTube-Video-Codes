@@ -1,4 +1,4 @@
-# Led Blinking using Switch and RPi
+# Seven Segment Display with RPi
 
 import RPi.GPIO as GPIO
 from time import sleep
