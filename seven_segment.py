@@ -58,7 +58,7 @@ def loop():
         for x in range(10):
             if x % 2 == 0:
                 pin = dat[x]
-                PORT(pin);
+                PORT(pin)
                 sleep(0.8)
         sleep(1.2)
 
@@ -66,7 +66,7 @@ def loop():
         for y in range(10):
             if y % 2 != 0:
                 pin1 = dat[y]
-                PORT(pin1);
+                PORT(pin1)
                 sleep(0.8)
         sleep(1.2)
 
